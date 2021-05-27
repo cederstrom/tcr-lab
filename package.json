@@ -1,0 +1,20 @@
+{
+  "name": "tcr-lab",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "jest",
+    "tcr": "npm run test && git commit"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "moduleNameMapper": {
+      "^src/(.*)$": "<rootDir>/src/$1"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}
