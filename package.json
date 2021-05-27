@@ -2,8 +2,7 @@
   "name": "tcr-lab",
   "version": "0.0.0",
   "scripts": {
-    "test": "jest",
-    "tcr": "npm run test && git commit"
+    "test": "jest"
   },
   "jest": {
     "preset": "ts-jest",
