@@ -1,5 +1,5 @@
 import { Fibonacci } from "src/Fibonacci";
 
-test("fubar", () => {
+test("0", () => {
   expect(Fibonacci.gief(0)).toBe(0);
 });
