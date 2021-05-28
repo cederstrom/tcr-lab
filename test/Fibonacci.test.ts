@@ -7,3 +7,4 @@ test("3", () => expect(Fibonacci.gief(3)).toBe(2));
 test("4", () => expect(Fibonacci.gief(4)).toBe(3));
 test("5", () => expect(Fibonacci.gief(5)).toBe(5));
 test("10", () => expect(Fibonacci.gief(10)).toBe(55));
+test("32", () => expect(Fibonacci.gief(32)).toBe(2178309));
